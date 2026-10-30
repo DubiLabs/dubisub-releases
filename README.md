@@ -10,7 +10,7 @@
 
 # DubiSub Desktop Suite
 
-### Next-Generation On-Device AI Video Dubbing & Subtitle Automation
+### Generative AI running directly on-device: Automatic video dubbing and subtitle generation
 **Trợ thủ AI Dịch thuật, Lồng tiếng và Tự động hóa Video chuyên nghiệp trên Windows**
 
 [![Latest Release](https://img.shields.io/github/v/release/DubiSub/dubisub-releases?color=6A4DFF&label=Release&style=flat-square)](https://github.com/DubiSub/dubisub-releases/releases/latest)
