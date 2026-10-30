@@ -80,7 +80,7 @@ flowchart LR
 ```
 
 1. **Bước 1 — Tải bộ cài**: Chọn liên kết tải gói `.exe` ở bảng phía trên từ mục [Releases](https://github.com/DubiSub/dubisub-releases/releases/latest).
-2. **Bước 2 — Cài đặt vào hệ thống**: Nhấp đúp vào tệp tin `DubiSub-Setup-v1.0.exe` và làm theo hướng dẫn của trình cài đặt trực quan.
+2. **Bước 2 — Cài đặt vào hệ thống**: Nhấp đúp vào tệp tin `DubiSub-Setup.exe` và làm theo hướng dẫn của trình cài đặt trực quan.
 3. **Bước 3 — Bắt đầu sử dụng**: Khởi động biểu tượng **DubiSub** ngoài màn hình Desktop. Bạn có thể đăng nhập tài khoản của mình tại [dubi.ericisme.cloud](https://dubi.ericisme.cloud) hoặc nhập mã License Key nếu đã sở hữu.
 
 ---
