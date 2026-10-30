@@ -65,8 +65,8 @@ Các gói cài đặt chính thức dành cho hệ điều hành **Windows 64-bi
 
 | Gói phân phối | Định dạng | Dung lượng | Tương thích | Tải về |
 | :--- | :---: | :---: | :---: | :---: |
-| **DubiSub Installer (Setup)**<br/><sub>*Khuyến nghị cho người dùng cá nhân & studio*</sub> | `.exe` | ~185 MB | Windows 10/11 x64 | [**Tải bản cài đặt (.exe)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
-| **DubiSub Portable Edition**<br/><sub>*Bản giải nén dùng ngay, không cần quyền Admin*</sub> | `.zip` | ~195 MB | Windows 10/11 x64 | [**Tải file Portable (.zip)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
+| **DubiSub Installer (Setup)**<br/><sub>*Khuyến nghị cho người dùng cá nhân & studio*</sub> | `.exe` | ~88.8 MB | Windows 10/11 x64 | [**Tải bản cài đặt (.exe)**](https://github.com/DubiSub/dubisub-releases/releases/download/v1.0.0/DubiSub-Setup-v1.0.0.exe) |
+| **DubiSub Portable Edition**<br/><sub>*Bản giải nén dùng ngay, không cần quyền Admin*</sub> | `.zip` | ~376 MB | Windows 10/11 x64 | [**Tải file Portable (.zip)**](https://github.com/DubiSub/dubisub-releases/releases/download/v1.0.0/DubiSub-v1.0.0-Portable-win64.zip) |
 
 > 💡 **Khởi động nhanh**: Nếu bạn mới tải lần đầu, hãy cài đặt và chọn gói **Trải nghiệm (Free)** trên giao diện để sử dụng ngay các tính năng cơ bản hoàn toàn miễn phí.
 
