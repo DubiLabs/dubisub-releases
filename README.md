@@ -1,67 +1,129 @@
 <div align="center">
 
-# 🎬 DubiSub — AI Video & Subtitle Suite
+<a href="https://dubi.ericisme.cloud" target="_blank" rel="noopener noreferrer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dubisub-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/dubisub-logo-light.svg">
+    <img src="assets/dubisub-logo-light.svg" alt="DubiSub Logo" width="88" height="88">
+  </picture>
+</a>
 
-**Trợ thủ AI Dịch thuật, Lồng tiếng và Cắt ghép Video thông minh trên máy tính Windows.**
+# DubiSub Desktop Suite
 
-[![Windows 10/11](https://img.shields.io/badge/Platform-Windows%2010%2F11%20(64--bit)-0078D6?style=flat-square&logo=windows)](https://dubi.ericisme.cloud)
-[![Official Website](https://img.shields.io/badge/Website-dubi.ericisme.cloud-6848ed?style=flat-square)](https://dubi.ericisme.cloud)
-[![Release](https://img.shields.io/github/v/release/DubiSub/dubisub-releases?color=success&style=flat-square)](https://github.com/DubiSub/dubisub-releases/releases/latest)
-[![License](https://img.shields.io/badge/License-Commercial%20Proprietary-blue?style=flat-square)](https://dubi.ericisme.cloud)
+### Next-Generation On-Device AI Video Dubbing & Subtitle Automation
+**Trợ thủ AI Dịch thuật, Lồng tiếng và Tự động hóa Video chuyên nghiệp trên Windows**
 
-[🌐 Trang chủ chính thức](https://dubi.ericisme.cloud) • [📥 Tải bản cài đặt mới nhất (.exe)](https://github.com/DubiSub/dubisub-releases/releases/latest) • [📖 Xem bảng gói & License](https://dubi.ericisme.cloud/#pricing) • [💬 Liên hệ hỗ trợ](https://dubi.ericisme.cloud/#contact)
+[![Latest Release](https://img.shields.io/github/v/release/DubiSub/dubisub-releases?color=6A4DFF&label=Release&style=flat-square)](https://github.com/DubiSub/dubisub-releases/releases/latest)
+[![Platform Windows](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(x64)-0078D6?style=flat-square&logo=windows&logoColor=white)](https://github.com/DubiSub/dubisub-releases/releases/latest)
+[![Acceleration CUDA & DirectML](https://img.shields.io/badge/Hardware%20Accel-NVIDIA%20CUDA%20%7C%20DirectML-76B900?style=flat-square&logo=nvidia&logoColor=white)](https://dubi.ericisme.cloud)
+[![Security Privacy First](https://img.shields.io/badge/Data%20Privacy-100%25%20On--Device%20(Local)-10B981?style=flat-square)](https://dubi.ericisme.cloud)
+[![License Commercial](https://img.shields.io/badge/License-Commercial%20Proprietary-475569?style=flat-square)](https://dubi.ericisme.cloud)
+
+<br/>
+
+[**🌐 Trang chủ chính thức**](https://dubi.ericisme.cloud) &nbsp;•&nbsp;
+[**📥 Tải bản cài đặt (.exe)**](https://github.com/DubiSub/dubisub-releases/releases/latest) &nbsp;•&nbsp;
+[**💎 Bảng giá & License**](https://dubi.ericisme.cloud/#pricing) &nbsp;•&nbsp;
+[**✨ Tính năng & Công nghệ**](https://dubi.ericisme.cloud/#features) &nbsp;•&nbsp;
+[**💬 Hỗ trợ kỹ thuật**](https://dubi.ericisme.cloud/#contact)
 
 ---
 
 </div>
 
-## 🚀 Giới thiệu về DubiSub
+## 📌 Tổng quan về DubiSub
 
-**DubiSub** là nền tảng máy trạm (Desktop Suite) thế hệ mới ứng dụng công nghệ trí tuệ nhân tạo hiện đại nhất để tự động hóa quy trình sản xuất video đa ngôn ngữ. Toàn bộ tiến trình dịch thuật, nhận diện giọng nói và tổng hợp âm thanh được tối ưu hóa chạy trực tiếp trên GPU cục bộ của bạn — bảo mật tuyệt đối 100% và không có độ trễ mạng.
+**DubiSub** là nền tảng máy trạm (Desktop Software) cao cấp dành riêng cho nhà sáng tạo nội dung, biên tập viên video, đội ngũ Review phim và nhà sản xuất truyền thông số. 
 
-### ✨ Tính năng nổi bật
+Được xây dựng trên nền tảng AI tăng tốc cục bộ, DubiSub tích hợp sâu các mô hình trí tuệ nhân tạo thịnh hành nhất (**Whisper AI**, **Neural LLM Local**, **Smart Cut Engine**) trực tiếp vào card đồ họa GPU của bạn. Điều này mang lại hiệu suất dịch thuật và cắt dựng video thần tốc với **độ trễ mạng bằng 0** và **bảo mật dữ liệu tuyệt đối 100%**.
 
-- **🎙️ Nhận diện giọng nói chuẩn xác 99.2%**: Ứng dụng mô hình Whisper AI hàng đầu thế giới được tinh chỉnh riêng cho ngữ điệu tiếng Việt và các ngoại ngữ phổ biến (Anh, Trung, Hàn, Nhật...).
-- **🧠 Dịch thuật ngữ cảnh sâu (Local Neural LLM)**: Dịch sát nghĩa, giữ nguyên phong cách điện ảnh và cảm xúc của nhân vật, không dùng bản dịch máy thô cứng.
-- **⚡ Review Phim & Cắt Clip tự động**: Nhận diện nhịp chuyển cảnh, tạo phụ đề Karaoke / Song ngữ chuẩn thời gian và tự động cắt highlight trong vài phút.
-- **🔒 Bảo mật dữ liệu tuyệt đối (100% Private)**: Video và âm thanh của bạn được xử lý trực tiếp trên phần cứng máy tính mà không gửi lên bất kỳ máy chủ đám mây trung gian nào.
-- **🚀 Tối ưu hóa GPU NVIDIA & AMD**: Hỗ trợ tăng tốc phần cứng đa nhân (CUDA / DirectML) giúp kết xuất video tốc độ cao (4K / 60 FPS).
+> 🔒 **Thông báo phân phối**: Kho lưu trữ (repository) này là kênh phát hành chính thức của DubiSub, chỉ cung cấp các gói cài đặt đã đóng gói và chữ ký số (.exe / .zip). Để tìm hiểu về giấy phép doanh nghiệp hoặc kích hoạt phần mềm, vui lòng truy cập [dubi.ericisme.cloud](https://dubi.ericisme.cloud).
 
 ---
 
-## 📥 Tải về & Cài đặt
+## ⚡ Tính năng cốt lõi
 
-| Phiên bản | Định dạng | Hệ điều hành | Liên kết tải về |
-| :--- | :--- | :--- | :--- |
-| **DubiSub Desktop Setup** (Khuyên dùng) | Trình cài đặt tự động (`.exe`) | Windows 10/11 (64-bit) | [**Tải bản mới nhất (.exe)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
-| **DubiSub Portable** | Tải về giải nén dùng ngay (`.zip`) | Windows 10/11 (64-bit) | [**Tải file nén (.zip)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  🎬 Video đầu vào ──► 🎙️ Whisper (Local) ──► 🧠 LLM Dịch phim         │
+│                                                     │                  │
+│  🚀 Xuất 4K / Subtitle ◄── ✂️ Cắt nhịp tự động ◄────┘                  │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
-> 💡 **Mẹo**: Nếu bạn chưa có mã kích hoạt hoặc muốn dùng thử, hãy mở DubiSub và chọn đăng ký gói **Miễn phí (Free)** để trải nghiệm tính năng cơ bản ngay lập tức.
-
----
-
-## 💻 Yêu cầu hệ thống
-
-- **Hệ điều hành**: Windows 10 (bản 20H2 trở lên) hoặc Windows 11 (64-bit).
-- **Bộ vi xử lý (CPU)**: Intel Core i5 / AMD Ryzen 5 thế hệ 8 trở lên.
-- **Bộ nhớ trong (RAM)**: Tối thiểu 8 GB RAM (khuyến nghị 16 GB hoặc cao hơn).
-- **Bộ xử lý đồ họa (GPU)**:
-  - Khuyến nghị: Card đồ họa rời NVIDIA (GTX 1650 trở lên, 4GB+ VRAM) có hỗ trợ CUDA.
-  - Vẫn hỗ trợ chế độ CPU / DirectML trên các dòng máy không có GPU rời.
-- **Ổ cứng**: Còn trống tối thiểu 4 GB (khuyến nghị dùng ổ cứng SSD tốc độ cao).
+- **🎙️ Nhận diện giọng nói siêu chính xác (99.2%)**: Ứng dụng mô hình `Whisper Large-v3` tối ưu riêng cho tiếng Việt, tự động tách lời thoại kể cả trên nền nhạc phim hoặc tạp âm lớn.
+- **🧠 Dịch thuật ngữ cảnh sâu & Phong cách điện ảnh**: Mô hình Local Neural LLM hiểu rõ ẩn ý, tiếng lóng, văn hóa bản địa và giữ trọn mạch cảm xúc của tác phẩm mà không bị khô cứng như dịch máy thông thường.
+- **✂️ Tự động hóa Review Phim & Cắt Shorts/Reels**: Hệ thống AI tự nhận diện nhịp chuyển cảnh, tạo điểm nhấn cao trào, ghép giọng lồng tiếng tự động và xuất video khung hình dọc (9:16) hoặc ngang (16:9) chỉ trong vài cú nhấp chuột.
+- **🎨 Phụ đề Karaoke & Song ngữ chuyên nghiệp**: Tùy biến định dạng phụ đề linh hoạt (`.srt`, `.ass`, `.vtt`), hiệu ứng chuyển màu chữ theo từng âm tiết (Karaoke timeline) chuẩn từng mili-giây.
+- **🔒 100% On-Device & Zero Cloud Leak**: Dữ liệu video, âm thanh và kịch bản của bạn không bao giờ tải lên bất kỳ đám mây nào. Toàn bộ tiến trình tính toán diễn ra ngay trên phần cứng của bạn.
 
 ---
 
-## 🛡️ Bản quyền & Điều khoản thương mại
+## 📥 Tải xuống DubiSub mới nhất
 
-- **Bản quyền**: © 2026 DubiSub Team. Tất cả các quyền được bảo lưu.
-- DubiSub là phần mềm thương mại đóng gói độc quyền. Mã nguồn phần mềm và các mô hình thuật toán nhúng được bảo vệ theo Luật Sở hữu trí tuệ.
-- Nghiêm cấm mọi hành vi sao chép, dịch ngược mã nguồn (reverse engineering), can thiệp hệ thống bản quyền hoặc phân phối lại trái phép mà không có sự đồng ý bằng văn bản từ DubiSub.
+Các gói cài đặt chính thức dành cho hệ điều hành **Windows 64-bit**:
+
+| Gói phân phối | Định dạng | Dung lượng | Tương thích | Tải về |
+| :--- | :---: | :---: | :---: | :---: |
+| **DubiSub Installer (Setup)**<br/><sub>*Khuyến nghị cho người dùng cá nhân & studio*</sub> | `.exe` | ~185 MB | Windows 10/11 x64 | [**Tải bản cài đặt (.exe)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
+| **DubiSub Portable Edition**<br/><sub>*Bản giải nén dùng ngay, không cần quyền Admin*</sub> | `.zip` | ~195 MB | Windows 10/11 x64 | [**Tải file Portable (.zip)**](https://github.com/DubiSub/dubisub-releases/releases/latest) |
+
+> 💡 **Khởi động nhanh**: Nếu bạn mới tải lần đầu, hãy cài đặt và chọn gói **Trải nghiệm (Free)** trên giao diện để sử dụng ngay các tính năng cơ bản hoàn toàn miễn phí.
 
 ---
 
-## 📬 Hỗ trợ & Phản hồi
+## 🚀 Hướng dẫn cài đặt trong 3 bước
 
-- **Website**: [https://dubi.ericisme.cloud](https://dubi.ericisme.cloud)
-- **Email hỗ trợ**: [contact@ericisme.cloud](mailto:contact@ericisme.cloud)
-- **Báo cáo sự cố hoặc góp ý tính năng**: Vui lòng tạo [Issue trên GitHub Releases](https://github.com/DubiSub/dubisub-releases/issues) hoặc nhắn tin trực tiếp qua trang quản trị tài khoản.
+```mermaid
+flowchart LR
+    A["1. Tải bộ cài (.exe)"] --> B["2. Khởi chạy Wizard"] --> C["3. Kích hoạt & Sáng tạo!"]
+```
+
+1. **Bước 1 — Tải bộ cài**: Chọn liên kết tải gói `.exe` ở bảng phía trên từ mục [Releases](https://github.com/DubiSub/dubisub-releases/releases/latest).
+2. **Bước 2 — Cài đặt vào hệ thống**: Nhấp đúp vào tệp tin `DubiSub-Setup-v1.0.exe` và làm theo hướng dẫn của trình cài đặt trực quan.
+3. **Bước 3 — Bắt đầu sử dụng**: Khởi động biểu tượng **DubiSub** ngoài màn hình Desktop. Bạn có thể đăng nhập tài khoản của mình tại [dubi.ericisme.cloud](https://dubi.ericisme.cloud) hoặc nhập mã License Key nếu đã sở hữu.
+
+---
+
+## 💻 Yêu cầu hệ thống & Tương thích phần cứng
+
+DubiSub được thiết kế để khai thác tối đa sức mạnh của phần cứng hiện đại thông qua các backend tính toán chuyên dụng:
+
+| Phần cứng | Cấu hình tối thiểu | Cấu hình khuyến nghị |
+| :--- | :--- | :--- |
+| **Hệ điều hành** | Windows 10 64-bit (20H2+) | Windows 11 64-bit (Bản mới nhất) |
+| **Bộ vi xử lý (CPU)** | Intel Core i5 / AMD Ryzen 5 thế hệ 8+ | Intel Core i7 / AMD Ryzen 7 thế hệ 11+ |
+| **Bộ nhớ RAM** | 8 GB RAM | 16 GB - 32 GB RAM tốc độ cao |
+| **Card đồ họa (GPU)** | NVIDIA GTX 1650 (4GB VRAM) hoặc CPU Mode | NVIDIA RTX 3060 / 4060 trở lên (8GB+ VRAM) |
+| **Tăng tốc phần cứng** | CUDA 12.x / DirectML / CPU Fallback | NVIDIA CUDA với Tensor Cores tối ưu |
+| **Ổ cứng lưu trữ** | 4 GB trống (SSD) | 15 GB trống (NVMe SSD cho cache video) |
+
+---
+
+## 🛡️ Cam kết an toàn & Chữ ký số
+
+- **100% Sạch & Không mã độc**: Tất cả tệp tin phát hành trên kênh GitHub này đều được biên dịch tự động trong môi trường CI/CD khép kín và quét qua hệ thống kiểm tra bảo mật nghiêm ngặt.
+- **Xác minh mã băm (Checksum SHA-256)**: Mỗi bản phát hành đi kèm với tệp `checksums.txt` tại trang Release giúp bạn đối chiếu tính toàn vẹn của tệp tải về trước khi chạy.
+- **Thông báo Windows SmartScreen**: Đối với những bản phát hành mới (chưa tích lũy đủ số lượt tải từ cộng đồng Microsoft), màn hình Windows SmartScreen có thể xuất hiện bảng thông báo màu xanh. Hãy bấm **More info** (Xem thêm) ➔ chọn **Run anyway** (Vẫn chạy) để tiếp tục.
+
+---
+
+## 📄 Bản quyền & Sở hữu trí tuệ
+
+- Bản quyền phần mềm © 2026 **DubiSub Team**. Mọi quyền được bảo lưu.
+- DubiSub là giải pháp thương mại được cấp phép có điều kiện. Mã nguồn, tài nguyên đồ họa và các thuật toán nhúng là tài sản sở hữu trí tuệ độc quyền của DubiSub.
+- Mọi hành vi biên dịch ngược, can thiệp mã máy, phân phối lại hoặc bẻ khóa giấy phép đều vi phạm pháp luật và bị nghiêm cấm theo quy định quốc tế về quyền tác giả.
+
+---
+
+## 🌐 Liên kết quan trọng
+
+- 🌍 **Website chính thức**: [https://dubi.ericisme.cloud](https://dubi.ericisme.cloud)
+- 💳 **Mua gói & Nâng cấp License**: [Bảng giá DubiSub](https://dubi.ericisme.cloud/#pricing)
+- 🛠️ **Quản lý thiết bị & Tài khoản**: [Dashboard Tài Khoản](https://dubi.ericisme.cloud/admin)
+- 📮 **Email hỗ trợ kỹ thuật**: [contact@ericisme.cloud](mailto:contact@ericisme.cloud)
+- 🐛 **Báo cáo lỗi phiên bản**: [Tạo Issue trên GitHub](https://github.com/DubiSub/dubisub-releases/issues)
+
+<div align="center">
+  <sub>Được phát triển với sự tỉ mỉ và đam mê bởi <b>DubiSub Team</b>. Mang công nghệ AI hàng đầu đến bàn làm việc của bạn.</sub>
+</div>
