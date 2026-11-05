@@ -6,11 +6,11 @@
 
   <picture>
 
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dubisub-logo-dark.svg">
+<source media="(prefers-color-scheme: dark)" srcset="assets/dubisub-logo-dark.svg">
 
-    <source media="(prefers-color-scheme: light)" srcset="assets/dubisub-logo-light.svg">
+<source media="(prefers-color-scheme: light)" srcset="assets/dubisub-logo-light.svg">
 
-    <img src="assets/dubisub-logo-light.svg" alt="DubiSub Logo" width="88" height="88">
+<img src="assets/dubisub-logo-light.svg" alt="DubiSub Logo" width="88" height="88">
 
   </picture>
 
