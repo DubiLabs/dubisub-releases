@@ -30,13 +30,17 @@ Dịch video, tạo phụ đề và lồng tiếng trên Windows.
 
 
 
-**[Tải DubiSub 1.0.8 · Windows x64](https://github.com/DubiLabs/dubisub-releases/releases/download/v1.0.8/DubiSub-Setup-v1.0.8.exe)**  ·  [Release notes](https://github.com/DubiLabs/dubisub-releases/releases/tag/v1.0.8)  ·  [Trang chủ & gói sử dụng](https://dubi.ericisme.cloud)
+**[Tải DubiSub · Windows x64](https://github.com/DubiLabs/dubisub-releases/releases/latest)** · [Hướng dẫn sử dụng](docs/README.md) · [Trang chủ và gói sử dụng](https://dubilabs.ericisme.cloud/)
 
 
 
 </div>
 
 
+
+## Tài liệu
+
+[Cài đặt và cập nhật](docs/install.vi.md) · [Video đầu tiên](docs/user-guide.vi.md) · [Tài nguyên](docs/resource-packs-guide.vi.md) · [Studio](docs/studio.vi.md) · [Tài khoản](docs/account.vi.md) · [Trợ giúp](docs/support.vi.md)
 
 ## Làm việc với video
 
@@ -56,7 +60,7 @@ Dịch video, tạo phụ đề và lồng tiếng trên Windows.
 
 
 
-1. Tải **DubiSub-Setup-v1.0.8.exe**, chạy trình cài Inno Setup.
+1. Tải tệp **DubiSub-Setup-vX.Y.Z.exe** trong bản phát hành mới nhất và chạy bộ cài.
 
 2. Mở app và chọn tài nguyên phù hợp cấu hình. Không cần cài Python, uv, Git hay compiler.
 
@@ -68,7 +72,7 @@ Bộ cài tự chọn sáng/tối theo Windows và hiển thị rõ phiên bản
 
 
 
-**Bản 1.0.8 chưa ký Authenticode.** Windows có thể hiển thị Unknown publisher/SmartScreen. Tệp `.exe.sha256` đi kèm dùng để đối chiếu bản tải. Sao lưu dữ liệu quan trọng trước khi nâng cấp.
+**Xem trạng thái chữ ký Authenticode trong ghi chú của từng bản phát hành.** Windows có thể hiển thị Unknown publisher/SmartScreen. Tệp `.exe.sha256` đi kèm dùng để đối chiếu bản tải. Sao lưu dữ liệu quan trọng trước khi nâng cấp.
 
 
 
@@ -93,4 +97,3 @@ Checkpoint OmniVoice có điều kiện **CC BY-NC**; việc mua DubiSub không 
 
 
 Phát triển bởi **DubiLabs · Ericismee**.
-
