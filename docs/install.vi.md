@@ -16,5 +16,6 @@ Các tệp Core, manifest, engine nhiều phần và nguồn thư viện trong R
 - Mở **Phiên bản mới** trong DubiSub và làm theo hướng dẫn. Bản cài cũ có thể mở bộ cài mới thay vì tải Core riêng.
 - Nếu cập nhật trong app không mở được, tải Setup từ [GitHub Releases](https://github.com/DubiLabs/dubisub-releases/releases/latest), đóng DubiSub sau khi tác vụ đang chạy hoàn tất, rồi cài lên vị trí hiện có.
 - Sao lưu dự án quan trọng trước khi nâng cấp. Dùng mục **Gói tài nguyên** để chuyển kho model sang ổ khác.
+- Nếu Setup báo bản cũ dùng cấu trúc khác, sao lưu thư mục runtime và các thư mục dự án riêng. Cài bản mới nhất vào thư mục khác, bỏ chọn mở DubiSub ở cuối trình cài rồi chép runtime đã sao lưu sang thư mục cài mới trước lần mở đầu tiên. Giữ bản cũ cho đến khi kiểm tra dự án và dữ liệu ở bản mới. Không cần cài qua từng phiên bản trung gian.
 
 Xem [khắc phục sự cố](support.vi.md) nếu Windows chặn bộ cài hoặc tài nguyên không tải được.

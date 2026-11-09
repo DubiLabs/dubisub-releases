@@ -7,3 +7,5 @@
 3. Start a project with the [user guide](user-guide.md). See [account and activation](account.vi.md) for paid plans and license keys.
 
 The updater and resource manager handle Core, engine and split archives. For a manual update, finish running jobs, close DubiSub and run the new official installer over the current installation. Back up important projects first.
+
+If Setup reports that the old installation has a different layout, back up its runtime directory and any external project folders. Install the latest version in a different folder and clear the launch option in Setup. Copy the backed-up runtime directory into the new installation before first launch. Keep the old installation until your projects and data are verified in the new one. You can skip intermediate versions.
