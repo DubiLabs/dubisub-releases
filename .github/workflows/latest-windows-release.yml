@@ -1,0 +1,74 @@
+name: Keep the Windows update channel current
+
+on:
+  release:
+    types: [published, edited, unpublished, deleted]
+  push:
+    branches: [main]
+    paths: [.github/workflows/latest-windows-release.yml]
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-windows-release
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Select the highest complete stable version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import subprocess
+
+          api = f"repos/{os.environ['GITHUB_REPOSITORY']}/releases"
+
+          def read_api(*args):
+              return json.loads(subprocess.check_output(["gh", "api", *args], text=True))
+
+          def version(release):
+              tag = release["tag_name"]
+              match = re.fullmatch(r"v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)", tag)
+              if not match or release["draft"] or release["prerelease"]:
+                  return None
+              files = {
+                  asset["name"] for asset in release["assets"]
+                  if asset["state"] == "uploaded" and asset["size"] > 0
+                  and re.fullmatch(r"sha256:[0-9a-fA-F]{64}", asset.get("digest") or "")
+              }
+              number = tag[1:]
+              setups = (f"DubiSub-Setup-{tag}.exe", f"DubiSub-{number}-Setup.exe",
+                        f"DubiSub-Setup-{number}.exe")
+              core = f"DubiSub-Core-{number}-windows-x64-full"
+              if not any({setup, setup + ".sha256"} <= files for setup in setups):
+                  return None
+              if {core + ".zip", core + ".manifest.json"} <= files:
+                  return tuple(map(int, match.groups()))
+              return None
+
+          pages = read_api(f"{api}?per_page=100", "--paginate", "--slurp")
+          candidates = [(key, release) for page in pages for release in page
+                        if (key := version(release)) is not None]
+          if not candidates:
+              raise SystemExit("No stable release has a verified Windows Setup and full Core package.")
+          _, selected = max(candidates, key=lambda item: item[0])
+          latest = subprocess.run(["gh", "api", f"{api}/latest"], text=True, capture_output=True)
+          if latest.returncode != 0 and "HTTP 404" not in latest.stderr:
+              raise SystemExit(latest.stderr)
+          if latest.returncode != 0 or json.loads(latest.stdout)["id"] != selected["id"]:
+              updated = read_api("--method", "PATCH", f"{api}/{selected['id']}", "-f", "make_latest=true")
+              if updated["id"] != selected["id"]:
+                  raise SystemExit("GitHub returned an unexpected release after selecting latest.")
+          print(f"Latest Windows release: {selected['tag_name']}")
+          PY
